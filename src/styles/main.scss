@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Dovemayo_gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#main{
+  padding-top: 95px;
+  #section1{
+    position: relative;
+    display: flex;
+    height: 850px;
+    .profill{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      
+      .header-wrap{
+        padding: auto 50px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+        .header-wrap-top{
+          display: flex;
+          justify-content: center;
+          .img-box{
+            border-radius: 50%;
+            width: 100px;
+            img{
+              width: 100%;
+              border-radius: inherit;
+            }
+          }
+        }
+        .text-box{
+          margin:50px 0 100px 0;
+          flex-flow: row wrap;
+          text-align: center;
+          font-family: 'Dovemayo_gothic';
+          font-size: 25px;
+        }
+        ul{
+          display: flex;
+          justify-content: center;
+          li{
+            float: left;
+            padding-left: 30px;
+            width: 30px;
+            img{
+              width: 100%;
+            }
+            a{
+              cursor: pointer;
+            }
+          }
+          .github-li{
+            padding:0;
+          }
+        }
+      }
+    }
+    .ocean-wrap{
+      font-family: 'GangwonEdu_OTFBoldA';
+      display: flex;
+      justify-content: center;
+      .ocean{
+        width: 1100px;
+        height: 700px;
+        margin-top: 50px;
+      }
+    }
+  }
+}
