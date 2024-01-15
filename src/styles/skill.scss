@@ -12,6 +12,29 @@
         display: flex;
         height: 850px;
         font-family: 'GangwonEdu_OTFBoldA';
-        background-color:aquamarine;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        h2{
+            font-size: 40px;
+            margin-bottom: 120px;
+            text-align: center;
+            top:150px;
+            left: 50%;
+        }
+        .skill-div{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:70px;
+            justify-content: center;
+            div{
+                display: flex;
+                flex-flow: column wrap;
+                gap: 10px;
+                h3{
+                    font-size: 30px;
+                }
+            }
+        }
     }
 }
