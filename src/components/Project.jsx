@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/project.scss'
-import 마켓컬리  from '../assets/market_kurly_main.png'
-import 깃허브 from '../assets/github_logo.png'
+import '../styles/project.scss';
+import 마켓컬리  from '../assets/market_kurly_main.png';
+import 깃허브 from '../assets/github_logo.png';
 
 export default function Project(){
     
